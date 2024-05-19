@@ -6,10 +6,10 @@
 -  [ZkApps - which are simply Zero-knowledge based Dapps](https://docs.minaprotocol.com/zkapps)
 
   
-Now that you have an understanding about Mina, you can start checking these materials for 
+Now that you have an understanding about Mina, you can start learning o1js materials: 
 -  [o1js Introduction](https://docs.minaprotocol.com/zkapps/o1js)
 -  [Tutorials for ZkApps](https://docs.minaprotocol.com/zkapps/tutorials)
 
 We highly recommend you to check the codebase and see how the types implemented and try to build somethings. This is the brest way to understand the smart contracts in Mina. For learning the o1js basics in a structured way, you can use [Mina Playground](https://www.minaplayground.com/) tutorials.
 
-There are some backbone classes and functions in o1js that makes Mina Universal ZK proof Layer. Field and curve operations are shown in the first exercise. 
+There are some backbone classes and functions in o1js that makes it powerful. If you went through o1js materials, you've already seen the classes like MerkleTree, ZkProgram and SmartContract. It wouldn't hurt anyone to go over the important classes again. Through this part, i will try to explain how Mina smart contracts are different from other chains.
