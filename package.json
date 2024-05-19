@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "o1js": "^1.2.0"
+  },
+  "type": "module"
+}
