@@ -19,6 +19,8 @@
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": false,
-  }
+  },
+  "include": ["examples/**/*"],
+  "exclude": ["node_modules"]
 }
 

@@ -1,5 +1,5 @@
 let start = performance.now();
-let { initializeBindings } = await import('o1js');
+import { initializeBindings } from "o1js";
 let time = performance.now() - start;
 
 console.log(`import o1js: ${time.toFixed(0)}ms`);

@@ -1,4 +1,5 @@
 // give browser time to prefetch so we don't include that in the timing
+
 await new Promise((resolve) => setTimeout(resolve, 100));
 
 let start = performance.now();
@@ -12,3 +13,5 @@ await initializeBindings();
 time = performance.now() - start;
 
 console.log(`initialize bindings: ${time.toFixed(0)}ms`);
+
+export {}

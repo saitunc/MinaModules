@@ -1,8 +1,10 @@
 {
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "typescript": "^5.4.3"
   },
   "dependencies": {
+    "expect": "^29.7.0",
     "o1js": "^1.2.0"
   },
   "type": "module"
