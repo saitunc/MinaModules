@@ -12,13 +12,13 @@ Also, it is obvious that some o1js materials is needed. From the beginnings to t
 - [X] Module 1: Mathematics for cryptography
   - [X] Finite Fields and other heavenly tool
   - [X] Elliptic Curves and their applications
-- [ ] Module 2: Introduction to ZK
-  - [ ] What are Proofs
-  - [ ] What are ZK Proofs
-  - [ ] Examples of ZK Proof systems
-- [ ] Module 3: What is Mina and O1js Basics
-  - [ ] What is / not Mina Blockchain is.
-  - [ ] Fields and other Mathematical/Programming tools 
-  - [ ]    
-- [ ] 
-
+- [X] Module 2: Other Primitives for non- Web3/ZK people 
+  - [X] Asymmetric/Symmetric/DLP based cryptography
+  - [X] Hashing / Merkle Tree
+  - [X] Digital Signatures
+- [X] Module 3: Introduction to Zk Snarks
+  - [X] What are zkSNARKs
+- [X] Module 4: What is Mina and O1js Basics
+  - [X] What is / not Mina Blockchain is.
+  - [ ] Advanced/Low-level o1js api 
+  - [ ] Exercises  
