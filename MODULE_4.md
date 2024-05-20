@@ -65,6 +65,8 @@ console.log("Is step2 proven? : ", ok3);
 
 SelfProof used here is an extended class of class Proof. It is not much different than Proof class and SelfProof is only to be used inside the ZkProgram. SelfProofs are given as a private input to the ZkProgram, while ZkProgram can also get PublicOutput and PublicInputs. This terms stems from the [Zk Circuits](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785), which are told in previous Modules. What this Private/Public Input means is that you can hide some private information from anyone, prove each step and send the end proof to another party, where they will be able to verify it anywhere.
 
+The methods defined are supposed to be async functions. 
+
 ZkProgram brings off-chain computation to be used by anyone. If you want to settle ZkProgram proofs to Mina Network, you can just give the end proof to a method of a Smart Contract and verify it there. So, this is a nice step to talk about Smart Contracts.
 
 **Exercise Time**: Step by step calculation might remind you an elementary algorithm used for clarifying recursion. It is pretty like Fibonacci Sequence, right? Fibonacci Sequence(Algorithm) can be implemented using ZkProgram. Imagine you need 341253th step of Fibonacci sequence, yet your computer does not have enough computing power for that. You want from some other party to compute it, which you need to trust the result in the classical case. However, if you use ZkProgram and recursive Zk algorithms, the person can send you the result along proof and you can ~~trust~~ verify that the resultant number is really the number you asked for.
@@ -233,7 +235,22 @@ async function makeGuess(name: Names, index: bigint, guess: number) {
   contract.commitment.get().assertEquals(Tree.getRoot());
 }
 
-
 ```
 
+Lets move along the code. You've learned what is a merkle tree in Module 2. Here, MerkleWitness provides the path for a leaf node (Account hash in our case) to verify that an account with its current state belongs to the tree. As you see, smart contract has one state variable, which is declared by a decorator *@state*. At the moment, smart contracts are able to store 8 state fields. As you see, smart contract is initialized with an initial commitment, which the variable is obtained from the development environment (Remember - the value(s) you set are not sent to chain directly, but used in compilation of the smart contract to a zk circuit.).
+
+In the next step, a method is written for the smart contract. Methods are definde with @method declaration and should be async. guessPreimage method compares the commitment value on the contract with the hased value of your guess. The variable 'target' is here put explicitly since this is an example file, of course. 
+
+Also, don't get confused by line `let commitment= this.commitment.get()` by thinking that this method 'gets' value of the commitment from the onchain. As we stated before, smart contracts gets compiled to zk circuits and data is provided by user/developer. Hence, the class Leaderboard can keep the 'commitment value' from the environment, but it does not get any data from the chain.
+
+Also, in the line `initialCommitment = Tree.getRoot()`, you see initialCommitment is set as initial commitment of the LeaderBoard, which is the root of the Merkle Tree with some of the leaf nodes set with hashed values of accounts of users.
+
+After Leaderboard contract is initialized and deployed, you have a zkApp with an Public key and verification key. This verification key is supposed to be kept private; otherwise some malicious parties can use it and deploy a malicious contract with the same verification key and public key. Of course, as you've seen in the [Permissions](https://docs.minaprotocol.com/zkapps/writing-a-zkapp/feature-overview/permissions#types-of-permissions) part, you can set permissions to impossible() to be sure that verification key will not be changed.
+
+Since every zkApp is some account type, it can hold funds, as done in the `  AccountUpdate.fundNewAccount(feePayer).send({ to: contractAccount, amount: initialBalance, });` part. AccountUpdate class enables you to update the account if you are permitted to do so. 
+Of course, changes/updates occurs in states as users interact with the contract. This changes are done via transactions, which are simply generating correct proofs for state transitions on the chain, as stated before.
+
+makeGuess function in the following parts, take the user account, index of the tree where user is wanted to change/interact and witness (which include path for verification) of the user's leaf. If the number guessed is correct, user gets a point and state of its account changes. Since this account state is a leaf of MerkleTree, root of the tree changes.
+
+As you see, for verification, you need pretty less data: if you have the current root state of the tree, you can verify the data you want to. 
 
