@@ -20,84 +20,59 @@ There are some backbone classes and functions in o1js that makes it powerful. If
 ZkProgram can be used to create a recursive programs. In this program, you can define methods and execute (infinite!) recursive steps in this program. Infinite, because after every step, program is 'compressed' to a proof. Via your ZkProgram, execution is verified in each step and proof of the execution so far is carried to the next step (in some sense, it is like incrementally verifiable computation).
 
 ```typescript
-import {
-  SelfProof,
-  Field,
-  ZkProgram,
-  verify,
-  Proof,
-  JsonProof,
-  Provable,
-  Empty,
-} from 'o1js';
+import { SelfProof, Field, ZkProgram, verify } from 'o1js';
 
-let MyProgram = ZkProgram({
-  name: 'example-with-output',
-  publicOutput: Field,
+const AddOne = ZkProgram({
+  name: "Example-Program",
+  publicInput: Field,
 
   methods: {
     baseCase: {
       privateInputs: [],
-      async method() {
-        return Field(0);
+
+      async method(publicInput: Field) {
+        publicInput.assertEquals(Field(0));
       },
     },
 
-    inductiveCase: {
+    step: {
       privateInputs: [SelfProof],
-      async method(earlierProof: SelfProof<Empty, Field>) {
+
+      async method(publicInput: Field, earlierProof: SelfProof<Field, void>) {
         earlierProof.verify();
-        return earlierProof.publicOutput.add(1);
+        earlierProof.publicInput.add(1).assertEquals(publicInput);
       },
     },
   },
 });
-// type sanity checks
-MyProgram.publicInputType satisfies Provable<Empty>;
-MyProgram.publicOutputType satisfies typeof Field;
 
-let MyProof = ZkProgram.Proof(MyProgram);
-
-console.log('program digest', MyProgram.digest());
-
-console.log('compiling MyProgram...');
-let { verificationKey } = await MyProgram.compile();
-console.log('verification key', verificationKey.data.slice(0, 10) + '..');
+const { verificationKey } = await AddOne.compile();
 
 console.log('proving base case...');
-let proof = await MyProgram.baseCase();
-proof = await testJsonRoundtrip(MyProof, proof);
+let proof = await AddOne.baseCase(Field(0));
 
-// type sanity check
-proof satisfies Proof<undefined, Field>;
+let ok = await verify(proof,verificationKey);
+console.log("Is baseCase proven? : ", ok);
 
-console.log('verify...');
-let ok = await verify(proof.toJSON(), verificationKey);
-console.log('ok?', ok);
+let proof1 = await AddOne.step(Field(1), proof);
+let ok2 = await verify(proof1,verificationKey);
+console.log("Is step1 proven? : ", ok2);
 
-console.log('verify alternative...');
-ok = await MyProgram.verify(proof);
-console.log('ok (alternative)?', ok);
-
-console.log('proving step 1...');
-proof = await MyProgram.inductiveCase(proof);
-proof = await testJsonRoundtrip(MyProof, proof);
-
-console.log('verify...');
-ok = await verify(proof, verificationKey);
-console.log('ok?', ok);
-
-console.log('verify alternative...');
-ok = await MyProgram.verify(proof);
-console.log('ok (alternative)?', ok);
-
-console.log('proving step 2...');
-proof = await MyProgram.inductiveCase(proof);
-proof = await testJsonRoundtrip(MyProof, proof);
-
-console.log('verify...');
-ok = await verify(proof.toJSON(), verificationKey);
-
-console.log('ok?', ok && proof.publicOutput.toString() === '2');
-
+let proof2 = await AddOne.step(Field(2), proof1);
+let ok3 = await verify(proof2,verificationKey);
+console.log("Is step2 proven? : ", ok3);
 ```
+
+SelfProof used here is an extended class of class Proof. It is not much different than Proof class and SelfProof is only to be used inside the ZkProgram. SelfProofs are given as a private input to the ZkProgram, while ZkProgram can also get PublicOutput and PublicInputs. This terms stems from the [Zk Circuits](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785), which are told in previous Modules. What this Private/Public Input means is that you can hide some private information from anyone, prove each step and send the end proof to another party, where they will be able to verify it anywhere.
+
+ZkProgram brings off-chain computation to be used by anyone. If you want to settle ZkProgram proofs to Mina Network, you can just give the end proof to a method of a Smart Contract and verify it there. So, this is a nice step to talk about Smart Contracts.
+
+**Exercise Time**: Step by step calculation might remind you an elementary algorithm used for clarifying recursion. It is pretty like Fibonacci Sequence, right? Fibonacci Sequence(Algorithm) can be implemented using ZkProgram. Imagine you need 341253th step of Fibonacci sequence, yet your computer does not have enough computing power for that. You want from some other party to compute it, which you need to trust the result in the classical case. However, if you use ZkProgram and recursive Zk algorithms, the person can send you the result along proof and you can ~~trust~~ verify that the resultant number is really the number you asked for.
+
+> Try to implement it with ZkProgram.
+
+### Smart Contracts
+
+
+
+
