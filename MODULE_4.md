@@ -254,3 +254,6 @@ makeGuess function in the following parts, take the user account, index of the t
 
 As you see, for verification, you need pretty less data: if you have the current root state of the tree, you can verify the data you want to. 
 
+
+**Exercise**: See the escrow file in the examples/zkapp/escrow folder. Try to write a basic mechanism for depositing and withdrawing. Also, you can add some time locks for withdrawing, like not being able to withdraw any tokens before 2030!
+Feel free to play with other zkapp files as well. 
