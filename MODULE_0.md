@@ -25,7 +25,14 @@ Okay, that was some 'verbal' explanations of blockchain technology.Since the tar
   
   ![new_tech](https://github.com/saitunc/MinaModules/assets/109796545/c9269350-d36a-473c-b823-d64159382ad5)
 
-  But of course, your question is very meaningful. Let these answer youur question:
+  But of course, your question is very meaningful. Let these answer your question:
 
 - [Blockchain use cases by Computerphile](https://www.youtube.com/watch?v=qBAOsB6ETrY)
 - [Blockchain use cases article by Consensys](https://consensys.io/blockchain-use-cases)
+
+
+  Here are additional topics about blockchain and its constraints:
+
+- [Blockchain trilemma](https://medium.com/crypto-wisdom/ethereum-2-0-blockchain-trilemma-for-dummies-60978aa8fa62)
+- [Blockchain trilemma by Binance](https://academy.binance.com/en/articles/what-is-the-blockchain-trilemma)
+- 
