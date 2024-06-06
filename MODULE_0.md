@@ -21,9 +21,9 @@ Okay, that was some 'verbal' explanations of blockchain technology.Since the tar
 - [Blockchain and Bitcoin](https://www.youtube.com/watch?v=qcuc3rgwZAE&t=660s)
 - [How does Bitcoin work? by 3B1B](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 
-  You might ask: What are the use cases? Well, we would like to respond like this: 
-
-![new_tech_good](https://github.com/saitunc/core-program-example/assets/109796545/6a34f86b-b80f-443d-8db4-832669ac76fe)
+  You might ask: What are the use cases? Well, we would like to respond like this:
+  
+  ![new_tech](https://github.com/saitunc/MinaModules/assets/109796545/c9269350-d36a-473c-b823-d64159382ad5)
 
   But of course, your question is very meaningful. Let these answer youur question:
 
