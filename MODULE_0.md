@@ -10,7 +10,7 @@ Lets begin with simple animation videos, right?
 - [Proof of Work vs Proof of Stake by Simply Explained](https://www.youtube.com/watch?v=M3EFi_POhps&list=PLzvRQMJ9HDiQF_5bEErheiAawrJ-2zQoI&index=10)
 - [How does Blockchain work? by Collin Thompson](https://medium.com/blockchain-review/how-does-the-blockchain-work-for-dummies-explained-simply-9f94d386e093)
 - [The Blockchain Trilemma](https://defi-planet.com/2022/02/what-is-the-blockchain-trilemma/)
-- [Smart Contracts](https://www.youtube.com/watch?v=ZE2HxTmxfrI&list=PLzvRQMJ9HDiQF_5bEErheiAawrJ-2zQoI&index=17)
+- [Smart Contracts](https://www.youtube.com/watch?v=pyaIppMhuic)
 - [Coin vs Token difference](https://www.youtube.com/watch?v=aLh8jlYYvZA)
 - [Distributed Ledger Technologies](https://medium.com/@barrymartinjr/demystifying-distributed-ledger-dlt-an-in-depth-exploration-of-its-definition-functionality-8a829494bd4d#:~:text=DLT%2C%20also%20known%20as%20a,or%20computers%20in%20a%20network)
 ## What IS a Blockchain, Really?
