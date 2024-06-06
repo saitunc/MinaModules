@@ -4,7 +4,7 @@ Hello. We're happy that you are ready to dive in to Mina Protocol and start to s
 
 ## What is a Blockchain? 
 
-Lets begin with simple animation videos, right? 
+Lets begin with some videos necessary to grasp the details of blockchain (not so technical yet):
 
 - [How does Blockchain work? by Simply Explained](https://www.youtube.com/watch?v=SSo_EIwHSd4&list=PLzvRQMJ9HDiQF_5bEErheiAawrJ-2zQoI&index=17)
 - [Proof of Work vs Proof of Stake by Simply Explained](https://www.youtube.com/watch?v=M3EFi_POhps&list=PLzvRQMJ9HDiQF_5bEErheiAawrJ-2zQoI&index=10)
@@ -13,6 +13,7 @@ Lets begin with simple animation videos, right?
 - [Smart Contracts](https://www.youtube.com/watch?v=pyaIppMhuic)
 - [Coin vs Token difference](https://www.youtube.com/watch?v=aLh8jlYYvZA)
 - [Distributed Ledger Technologies](https://medium.com/@barrymartinjr/demystifying-distributed-ledger-dlt-an-in-depth-exploration-of-its-definition-functionality-8a829494bd4d#:~:text=DLT%2C%20also%20known%20as%20a,or%20computers%20in%20a%20network)
+- [Hashing and digital signatures](https://www.youtube.com/watch?v=Y6GGzzKm2Ig&list=PLy_eQQ6VGZFxUup6UrQumWu4i2xmtZcwa&index=3)
 ## What IS a Blockchain, Really?
 
 Okay, that was some 'verbal' explanations of blockchain technology.Since the targeted audience of these modules are experienced/curious developers, it can be better for you to understand the technical aspects of blockchain, right? Also, you'll see the underlying CS topics in the following resources:
@@ -31,7 +32,7 @@ Okay, that was some 'verbal' explanations of blockchain technology.Since the tar
 - [Blockchain use cases article by Consensys](https://consensys.io/blockchain-use-cases)
 
 
-  Here are additional topics about blockchain and its constraints:
+  Here are additional topics about blockchain:
 
 - [Blockchain trilemma](https://medium.com/crypto-wisdom/ethereum-2-0-blockchain-trilemma-for-dummies-60978aa8fa62)
 - [Blockchain trilemma by Binance](https://academy.binance.com/en/articles/what-is-the-blockchain-trilemma)
