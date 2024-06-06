@@ -11,10 +11,11 @@ Let’s get started!
 
 Before diving to o1js and Mina protocol, it is necessary to see the underlying mathematical foundations of blockchains and Zero-Knowledge Proofs. Here are some resources that you can learn those by. Videos are shot by LambdaClass, which we suggest you to check the playlist if you are interested. Also, their [blog](https://blog.lambdaclass.com/), which includes Zk, snarks and others can be enlightening: 
 
-- [ Finite Fields ](https://www.youtube.com/watch?v=MAhmV_omOwA&list=PLFX2cij7c2PynTNWDBzmzaD6ij170ILbQ&index=9)
+- [Finite Fields](https://www.youtube.com/watch?v=MAhmV_omOwA&list=PLFX2cij7c2PynTNWDBzmzaD6ij170ILbQ&index=9)
 - [Cyclic Subgroup](https://www.youtube.com/watch?v=UIhhs38IAGM&list=PLFX2cij7c2PynTNWDBzmzaD6ij170ILbQ&index=4)
 - [An introduction to Mathematical Cryptography Chapter 1](https://books.google.com.ar/books/about/An_Introduction_to_Mathematical_Cryptogr.html?id=BHuTQgAACAAJ&source=kp_book_description&redir_esc=y)
 - [Mina Book Chapters 1-6 ](https://o1-labs.github.io/proof-systems/introduction.html)
+  -[Fast Fourier Transform explained visually](https://www.youtube.com/watch?v=h7apO7q16V0) 
 - [Moonmath Manual for ZK Chapters 1-5 ](https://github.com/LeastAuthority/moonmath-manual/releases/latest/download/main-moonmath.pdf)
 
 ## Exercises
