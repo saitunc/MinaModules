@@ -35,4 +35,4 @@ First part is over huh? Now it is time to see some more underlying mathematical 
 - [Programming Bitcoin Chapters 2-3 ](https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_d82be9cf1cb52e2b294a82275318a5c8235444eb_1654093256.pdf)
 - [Serious Cryptography Chapter 11-12](https://theswisessbay.ch/pdf/Books/Computer%20science/Cryptography/SeriousCryptography.pdf)
 - An introduction to Mathematical Cryptography Chapter 5-5.5
-- [Pairings for Beginners](https://static1.squarespace.com/static/5fdbb09f31d71c1227082339/t/5ff394720493bd28278889c6/1609798774687/PairingsForBeginners.pdf)
+
