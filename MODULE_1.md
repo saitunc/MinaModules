@@ -30,7 +30,7 @@ Moreover, you can take a look at [o1js](https://github.com/o1-labs/o1js) reposit
 
 First part is over huh? Now it is time to see some more underlying mathematical concepts: Elliptic Curves. Cryptography of blockchains heavily based on Elliptic Curve Cryptography:
 
-- [Elliptic Curves](https://www.youtube.com/watch?v=3InABLNaR8M&list=PLxP0p--aBHmIAeOBX1lkpTn-wAbAimg8-&index=5)
+- [Elliptic Curves](https://www.youtube.com/watch?v=F3zzNa42-tQ)
 - Moonmath Manual (Chapters 5-5.3)
 - [Programming Bitcoin Chapters 2-3 ](https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_d82be9cf1cb52e2b294a82275318a5c8235444eb_1654093256.pdf)
 - [Serious Cryptography Chapter 11-12](https://theswisessbay.ch/pdf/Books/Computer%20science/Cryptography/SeriousCryptography.pdf)
