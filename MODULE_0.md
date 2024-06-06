@@ -14,13 +14,16 @@ Lets begin with some videos necessary to grasp the details of blockchain (not so
 - [Coin vs Token difference](https://www.youtube.com/watch?v=aLh8jlYYvZA)
 - [Distributed Ledger Technologies](https://medium.com/@barrymartinjr/demystifying-distributed-ledger-dlt-an-in-depth-exploration-of-its-definition-functionality-8a829494bd4d#:~:text=DLT%2C%20also%20known%20as%20a,or%20computers%20in%20a%20network)
 - [Hashing and digital signatures](https://www.youtube.com/watch?v=Y6GGzzKm2Ig&list=PLy_eQQ6VGZFxUup6UrQumWu4i2xmtZcwa&index=3)
-## What IS a Blockchain, Really?
+- [Consensus algorithms](https://www.coindesk.com/learn/what-is-a-consensus-mechanism/)
+## What is a Blockchain, again? 
 
-Okay, that was some 'verbal' explanations of blockchain technology.Since the targeted audience of these modules are experienced/curious developers, it can be better for you to understand the technical aspects of blockchain, right? Also, you'll see the underlying CS topics in the following resources:
+Continuing with the father of all blockchains, Bitcoin. Understanding the applications and implementations of the concepts above in blockchain can give you some understanding about blockchain as well. Please go and see:
 
 - [Public & Private Keys](https://www.youtube.com/watch?v=_zyKvPvh808)
 - [Blockchain and Bitcoin](https://www.youtube.com/watch?v=qcuc3rgwZAE&t=660s)
 - [How does Bitcoin work? by 3B1B](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+  
+  Please use the book [Programming Bitcoin by Jimmy Song](https://digilib.stekom.ac.id/assets/dokumen/ebook/feb_d82be9cf1cb52e2b294a82275318a5c8235444eb_1654093256.pdf). It is very pedagocial in terms of showing the implementation of necessary building blocks of a blockhain -Well,       Bitcoin actually-. Implementations are done with Python, so anyone with an understanding of algorithms can understand it.
 
   You might ask: What are the use cases? Well, we would like to respond like this:
   
@@ -30,7 +33,7 @@ Okay, that was some 'verbal' explanations of blockchain technology.Since the tar
 
 - [Blockchain use cases by Computerphile](https://www.youtube.com/watch?v=qBAOsB6ETrY)
 - [Blockchain use cases article by Consensys](https://consensys.io/blockchain-use-cases)
-
+- [Use cases of Ethereum](https://originstamp.com/blog/what-is-ethereum-and-what-are-its-use-cases/)
 
   Here are additional topics about blockchain:
 
