@@ -2,8 +2,6 @@
 
 Before getting in ZK proofs, lets see some more primitives. Encryption is essential and historically the starting point of cryptography, so lets see what is encryption is about.
 
-
-// Comments: This part is also might not be necessary too. However, those are essential for developers to make sense of their work.
 ## Symmetric vs. Asymmetric Encryption
 
 Encryption is a technique used to encode data, making it readable only to those who possess the correct decryption key. There are two main types of encryption - symmetric and asymmetric, each serving different purposes and with their own strengths and weaknesses.
@@ -12,9 +10,6 @@ Encryption is a technique used to encode data, making it readable only to those 
 
 **Asymmetric Encryption** - Also known as public-key encryption, this method uses a pair of keys: one for encryption and another for decryption. The RSA algorithm is one of the best known public-key algorithms.
 
-The key difference between the two is the number of keys used: symmetric encryption uses one key for both encrypting and decrypting, while asymmetric encryption uses a different key for each (one public, one private). For a deeper understanding of symmetric and asymmetric encryption, please explore these resources:
-- [One Time Pad by Dan Boneh](https://www.youtube.com/watch?v=pQkyFJp2eUg&list=PL58C6Q25sEEHXvACYxiav_lC2DqSlC7Og&index=7)
-- [Stream ciphers and pseudo random generators by Dan Boneh](https://www.youtube.com/watch?v=ZSjTMSvp-eI&list=PL58C6Q25sEEHXvACYxiav_lC2DqSlC7Og&index=8)
 - [Prime Numbers & RSA Encryption Algorithm - Computerphile](https://www.youtube.com/watch?v=JD72Ry60eP4)
 
 ## DLP-based Public-Key Cryptography
