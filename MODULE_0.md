@@ -1,7 +1,6 @@
 # Module 0 - Blockchain basics
 
-Welcome to ground zero anon. We're happy that you are ready to dive in to Mina Protocol and start to solve problems related blockchain. Now, in this module, you will learn blockchain basics before learning what Mina Protocol is. If you already feel that you know how blockchains work, 
-You can just go to Module 1. However, you can come back here to check resources about topics that you feel lack of through your process. Letz go!
+Hello. We're happy that you are ready to dive in to Mina Protocol and start to solve problems related blockchain. Now, in this module, you will learn blockchain basics before learning what Mina Protocol is. If you already feel that you know how blockchains work, you can just go to Module 1. However, you can come back here to check resources about topics that you feel lack of through your process. Letz go!
 
 ## What is a Blockchain? 
 
