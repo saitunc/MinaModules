@@ -15,7 +15,7 @@ Before diving to o1js and Mina protocol, it is necessary to see the underlying m
 - [Cyclic Subgroup](https://www.youtube.com/watch?v=UIhhs38IAGM&list=PLFX2cij7c2PynTNWDBzmzaD6ij170ILbQ&index=4)
 - [An introduction to Mathematical Cryptography Chapter 1](https://books.google.com.ar/books/about/An_Introduction_to_Mathematical_Cryptogr.html?id=BHuTQgAACAAJ&source=kp_book_description&redir_esc=y)
 - [Mina Book Chapters 1-6 ](https://o1-labs.github.io/proof-systems/introduction.html)
-    -[Fast Fourier Transform explained visually](https://www.youtube.com/watch?v=h7apO7q16V0) 
+    * [Fast Fourier Transform explained visually](https://www.youtube.com/watch?v=h7apO7q16V0) 
 - [Moonmath Manual for ZK Chapters 1-5 ](https://github.com/LeastAuthority/moonmath-manual/releases/latest/download/main-moonmath.pdf)
 
 ## Exercises
