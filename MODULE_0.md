@@ -35,4 +35,3 @@ Okay, that was some 'verbal' explanations of blockchain technology.Since the tar
 
 - [Blockchain trilemma](https://medium.com/crypto-wisdom/ethereum-2-0-blockchain-trilemma-for-dummies-60978aa8fa62)
 - [Blockchain trilemma by Binance](https://academy.binance.com/en/articles/what-is-the-blockchain-trilemma)
-- 
