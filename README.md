@@ -20,7 +20,7 @@ Also, it is obvious that some o1js materials is needed. From the beginnings to t
   - [X] What are zkSNARKs
 - [X] Module 4: What is Mina and O1js Basics
   - [X] What is / not Mina Blockchain is.
-  - [ ] Advanced/Low-level o1js api 
+  - [X] Advanced/Low-level o1js api 
   - [ ] Exercises  
 
 
