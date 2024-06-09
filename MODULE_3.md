@@ -1,6 +1,6 @@
 # Module 3 - zkSNARKs
 
-# Of course you might say that you are not into such deep levels of the ZK. We accept that those are so mathematical, such that o1js handles with all of them. If you are not familiar with ZK, studying these concepts just for understanding the underlying Zero-Knowledge concept (especially ZK Circuit) will be enough. (meaning that, you are not supposed to build your own zk Framework, just understand why and how o1js uses zk.)#
+Of course you might say that you are not into such deep levels of the ZK. We accept that those are so mathematical, such that o1js handles with all of them. If you are not familiar with ZK, studying these concepts just for understanding the underlying Zero-Knowledge concept (especially ZK Circuit) will be enough. (meaning that, you are not supposed to build your own zk Framework, just understand why and how o1js uses zk.)
 
 This module is where zero-knowledge proofs and Snarks are going to be explained. You are not supposed to know Zk proofs deeply, but understanding some key terms like *witness* *Public Input* and *Private Input* is essential while you develop zkApps. First, see what [ZK proofs](https://www.youtube.com/watch?v=uchjTIlPzFo&list=PLS01nW3Rtgor_yJmQsGBZAg5XM4TSGpPs) are in a mathematical sense, since it is essential for your further development understanding the underlying mathematics
 
