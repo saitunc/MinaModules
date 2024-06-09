@@ -44,7 +44,6 @@ Explore these resources to further your understanding:
 Merkle Trees are very essential on Mina Protocol, most of the people use that beautiful tool for their smart contracts and zkApps. We ask for a little bit more patience about all this theoretical parts - soon you will be using this Merkle Trees too! 
 
 - [How Merkle Trees Enable the Decentralized Web! ](https://www.youtube.com/watch?v=3giNelTfeAk)
-- [Visualizing Efficient Merkle Trees for Zero-Knowledge Proofs](https://kndrck.co/posts/efficient-merkletrees-zk-proofs/)
 - [Merkle Tree by Mina Protocol](https://docs.minaprotocol.com/zkapps/o1js/merkle-tree)
 
 
@@ -52,13 +51,13 @@ Merkle Trees are very essential on Mina Protocol, most of the people use that be
 
 Digital signatures ensure the integrity and authenticity of digital messages or documents. By providing a means to verify the origin and confirm that the content has not been altered, digital signatures play a pivotal role in maintaining trust in digital communications.
 
+In Public Key Cryptography, anyone can encrypt their message with receiver's public key, which can be decrypted by the reciever's priate key only. Besides that, signer can generate a signature for a message using their private key, which can be used to validate that message is from some specific public key (sender, in this case).
+
 In Public Key Cryptography, anyone can encrypt their message with the receiver's public key, and only the receiver can decrypt the message with their private key. In digital signatures, on the other hand, if a signer generates a signature for a message using their private key, anyone can validate it using the signer's public key. Therefore, the message of the signature is made public, which distinguishes it from cryptographic commitments.
 
 - [What are Digital Signatures? - Computerphile](https://www.youtube.com/watch?v=s22eJ1eVLTU)
 - [Digital Signature Algorithm (DSA) - Cryptography ](https://www.youtube.com/watch?v=iS1nK4G6EtA)
-- [Digital Signature Algorithm (DSA) explained with example ](https://www.youtube.com/watch?v=MtT3NBfpV5Q)
 
 Besides that, Mina protocol uses Schnorr signatures, which are known for simplicity and efficiency: 
-- [Schnorr Digital Signature (by GeeksForGeeks)](https://www.geeksforgeeks.org/schnorr-digital-signature/)
 - [Schnorr Digital Signature](https://www.youtube.com/watch?v=r9hJiDrtukI)
 
