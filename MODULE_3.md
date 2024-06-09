@@ -2,9 +2,11 @@
 
 This module is where zero-knowledge proofs and Snarks are going to be explained. You are not supposed to know Zk proofs deeply, but understanding some key terms like *witness* *Public Input* and *Private Input* is essential while you develop zkApps. First, see what [ZK proofs](https://www.youtube.com/watch?v=uchjTIlPzFo&list=PLS01nW3Rtgor_yJmQsGBZAg5XM4TSGpPs) are in a mathematical sense, since it is essential for your further development understanding the underlying mathematics
 
+For a simple understanding of what Zero-Knowledge proofs are, please see these resourceS:
+-[An Introduction to Mathematical Cryptography, Chapter 8.3]
 
 
-## 2. SNARKs
+## SNARKs
 
 First, start by what is a circuit? By circuits, we mean **Arithmetic Circuits**:
 - [Electric Coin article](https://electriccoin.co/blog/snark-explain5/)
@@ -13,7 +15,7 @@ First, start by what is a circuit? By circuits, we mean **Arithmetic Circuits**:
 - [A Gentle Introduction to Snarks](https://www.di.ens.fr/~nitulesc/files/Survey-SNARKs.pdf) This one is a little mathematical, but checking the SNARK parts might give you a hint about it.
 
 
-## 5. Additional Study
+## Additional Study
 
 In the above, we have drawn very heavily from blog posts written by Vitalik Buterin, Electric Coin, and Maurizio Binello. However, these are only some of the many pathways towards understanding zkSNARK construction.
 
