@@ -1,4 +1,4 @@
-t# Module 1 - Intro to Math of ZK
+# Module 1 - Intro to Math of ZK
 
 Welcome to module 1. If you haven't checked module 0 and not you're familiar to blockchain, we suggest you to take a look at module 0. If you already know what a blockchain is, you are ready to dive in to mathematical foundations of blockchain. 
 
