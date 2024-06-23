@@ -1,6 +1,6 @@
 # Module 3 - zkSNARKs
 
-##Update
+#Update
 This module is optional, you should skip to the Module 4 and if you wish to understand the zkSNARKS and develop low level infrastructure tools/apps or want to do some improvements to the mina and o1js itself, then you can study this part.
 
 
