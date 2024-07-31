@@ -15,6 +15,8 @@ Lets begin with some videos necessary to grasp the details of blockchain (not so
 - [Distributed Ledger Technologies](https://medium.com/@barrymartinjr/demystifying-distributed-ledger-dlt-an-in-depth-exploration-of-its-definition-functionality-8a829494bd4d#:~:text=DLT%2C%20also%20known%20as%20a,or%20computers%20in%20a%20network)
 - [Hashing and digital signatures](https://www.youtube.com/watch?v=Y6GGzzKm2Ig&list=PLy_eQQ6VGZFxUup6UrQumWu4i2xmtZcwa&index=3)
 - [Consensus algorithms](https://www.coindesk.com/learn/what-is-a-consensus-mechanism/)
+- [Blockchain 101](https://www.youtube.com/watch?v=_160oMzblY8&t=4s)
+- [Blockchain 101 pt. 2](https://www.youtube.com/watch?v=xIDL_akeras&t=1s)
 ## What is a Blockchain, again? 
 
 Continuing with the father of all blockchains, Bitcoin. Understanding the applications and implementations of the concepts above in blockchain can give you some understanding about blockchain as well. Please go and see:
